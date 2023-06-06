@@ -8,10 +8,11 @@ Divide the unit cell into (%custom) thick slices parallel to the interface, and 
 
 $$
 \begin{gathered}
-D_\mu(\boldsymbol{\epsilon})=\frac{1}{V_{B Z}} \sum_\nu \int \omega_{\boldsymbol{k} \nu}^\mu \delta\left(\boldsymbol{\epsilon}-\boldsymbol{\epsilon}_{\boldsymbol{k} \nu}\right) d \boldsymbol{k}, \\
-\omega_{\boldsymbol{k} \nu}^\mu=\int_{\Omega_\mu} \rho_{\boldsymbol{k} \nu}(\boldsymbol{r}) d \boldsymbol{r},
+D_\mu(\boldsymbol{\epsilon})=\frac{1}{V_{B Z}} \sum_\nu \int \omega_{\boldsymbol{k} \nu}^\mu \delta\left(\boldsymbol{\epsilon}-\boldsymbol{\epsilon}{\boldsymbol{k} \nu}\right) d \boldsymbol{k}, \\
+\omega{\boldsymbol{k} \nu}^\mu=\int_{\Omega_\mu} \rho_{\boldsymbol{k} \nu}(\boldsymbol{r}) d \boldsymbol{r},
 \end{gathered}
 $$
+
 
 where $\boldsymbol{k}$ denotes a point in the Brillouin zone, $\nu$ is a band index, $V_{B Z}$ is the volume of the Brillouin zone, and $\rho_{k \nu}(r)$ is a partial electron density contributed from an eigenwave function labeled by $\boldsymbol{k}$ and $\nu$. 
 
