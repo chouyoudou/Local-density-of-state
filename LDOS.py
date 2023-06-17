@@ -54,7 +54,7 @@ def get_1d(gcube2oned_path, band_min, band_max, k_i, num_threads):
     for band_i in range(band_min, band_max + 1):
         t = threading.Thread(target=run_1d, args=(gcube2oned_path, band_i, k_i))
         threads.append(t)
-    # start threads
+    # start
     for i in range(0, len(threads), num_threads):
         for j in range(i, min(i + num_threads, len(threads))):
             threads[j].start()
