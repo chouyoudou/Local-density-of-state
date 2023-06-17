@@ -251,17 +251,16 @@ def prepare_data(k_min, k_max, band_min, band_max, cubetool_path, gcube2oned_pat
     sum_LDOS(k_min, k_max+1)
 
 
+if __name__ == '__main__':
+    k_min=21
+    k_max=21
+    band_min=1
+    band_max=10
+    cubetool_path='~/package/cubeTool/cubeTool'
+    gcube2oned_path='~/openmx3.9/source/gcube2oned'
 
-### Parameter ###
-k_min=21
-k_max=21
-band_min=1
-band_max=10
-cubetool_path='~/package/cubeTool/cubeTool'
-gcube2oned_path='~/openmx3.9/source/gcube2oned'
-
-num_threads=128
-prepare_data(k_min, k_max, band_min, band_max, cubetool_path, gcube2oned_path, num_threads)
+    num_threads=128
+    prepare_data(k_min, k_max, band_min, band_max, cubetool_path, gcube2oned_path, num_threads)
 
 
 
