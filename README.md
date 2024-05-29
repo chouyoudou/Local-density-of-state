@@ -19,7 +19,6 @@ where $\boldsymbol{k}$ denotes a point in the Brillouin zone, $\nu$ is a band in
 ## Parameters 
 | Name      | Value     | Default | Description                                                                                               |
 | --------- | --------- | ------- | --------------------------------------------------------------------------------------------------------- |
-| num_threads    | int     |        | This script uses multi-threading to improve speed, so you need to specify the number of threads of the machine. |
 | k_min    | int     |        | Specify a k-point range to extract the plane wave coefficients of the Kohn-Sham (KS) orbit from the WAVECAR file and output the real space wave function, corresponding to k_max.|
 | k_max | int     |         | Same as k_min |
 | band_min | int     |         | Specify the minimum value of the range of band numbers, same as k_min. |
