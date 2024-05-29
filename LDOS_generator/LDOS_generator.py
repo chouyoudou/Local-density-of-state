@@ -28,7 +28,7 @@ class LDOS_generator:
                 print('------------------  K %i Step 1, get .1d file ------------------' % k_i)
                 for band_i in range(self.band_min, self.band_max + 1):
                     input_file = os.path.join(self.cube_dir, f'B{band_i}_K{k_i}.cube')
-                    axis = 3  # Assuming we are using axis 3 as in the original C code
+                    axis = 3 
                     processor = Cube2oned(input_file, axis, self.oned_dir)
                     processor.save_1d_file()
 
